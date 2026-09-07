@@ -4,7 +4,6 @@ from app.tools.task_tool import add_task, get_tasks
 from app.memory.memory import Memory
 
 
-
 memory = Memory()
 agent = DeadlineRescueAgent(memory)
 
